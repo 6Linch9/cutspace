@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/main.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="home">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#" class="header__logo logo">
+                        <img loading="lazy" src="img/logo.svg" alt="Логотип">
+                    </a>
+                    <nav class="header__menu menu" data-menu>
+                        <ul class="menu__list">
+                            <li class="menu__item" data-menu-item>
+                                <a href="#home" class="menu__link" data-scroll>Home</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#about" class="menu__link" data-scroll>About us</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#find" class="menu__link" data-scroll>Find space</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#share" class="menu__link" data-scroll>Share space</a>
+                            </li>
+                            <li class="menu__item" data-menu-item>
+                                <a href="#promote" class="menu__link" data-scroll>Promote space</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="burger" data-burger>
+                        <span class="burger__line"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="hero" id="home">
+                <div class="container">
+                    <div class="hero__wrapper">
+                        <div class="hero__content">
+                            <h1 class="hero__title">
+                                Find your custom matched commercial real estate space.
+                            </h1>
+                            <div class="hero__descr">
+                                In oculis quidem exercitus quid ex ea consequatur? autem vel eum fugiat, quo pertineant ero tibique
+                            </div>
+                            <form action="#" class="hero-form">
+                                <label class="hero-form__label">
+                                    <input type="email" name="email" class="hero-form__input" placeholder="Your email address">
+                                </label>
+                                <button class="hero-form__btn btn">Subscribe</button>
+                            </form>
+                        </div>
+                        <div class="hero__right">
+                            <picture>
+                                <source srcset="img/hero/1.webp" type="image/webp">
+                                <img loading="lazy" class="hero__img" src="img/hero/1.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <ul class="about__parters company-logo">
+                        <li class="company-logo__item">
+                            <img loading="lazy" src="img/about/company-logo-1.svg" alt="">
+                        </li>
+                        <li class="company-logo__item">
+                            <img loading="lazy" src="img/about/company-logo-2.svg" alt="">
+                        </li>
+                        <li class="company-logo__item">
+                            <img loading="lazy" src="img/about/company-logo-3.svg" alt="">
+                        </li>
+                        <li class="company-logo__item">
+                            <img loading="lazy" src="img/about/company-logo-4.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container">
+                    <div class="about__wrapper">
+                        <div class="about__img">
+                            <div class="about-card">
+                                <picture>
+                                    <source srcset="img/about/1.webp" type="image/webp">
+                                    <img loading="lazy" src="img/about/1.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="about-card">
+                                <picture>
+                                    <source srcset="img/about/2.webp" type="image/webp">
+                                    <img loading="lazy" src="img/about/2.jpg" alt="">
+                                </picture>
+                                <span class="tooltip">
+                                    <button class="tooltip__btn" aria-describedby="id1">i</button>
+                                    <span class="tooltip__txt" role="tooltip" id="id1">
+                                        <span class="visually-hidden">Тултип: </span>
+                                        <h4 class="tooltip__title">Twelve West Lake</h4>
+                                        <div class="tooltip__descr">Space for up to 150 people</div>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="about__content">
+                            <h2 class="about__title title">We provide best space for you!</h2>
+                            <div class="about__text">
+                                <p>Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex ea quid est et via procedat oratio quaerimus.</p>
+                                <p>quid aut ad id omnia referri oporteat, ipsum autem nusquam hoc epicurus in ea commodi consequatur?</p>
+                            </div>
+                            <a href="#" class="btn">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="find">
+                <div class="container">
+                    <div class="contact__cta contact-cta">
+                        <div class="contact-cta__img">
+                            <picture>
+                                <source srcset="img/contact/contact-bg.webp" type="image/webp">
+                                <img loading="lazy" src="img/contact/contact-bg.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="contact-cta__info">
+                            <h2 class="contact-cta__title title title--white">
+                                Start using our product
+                            </h2>
+                            <div class="contact-cta__descr">
+                                Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex
+                            </div>
+                            <div class="contact-cta__btns">
+                                <a href="#" class="btn">Contact Us</a>
+                                <button href="#" class="btn btn--white contact-cta__play">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#play"></use>
+                                    </svg>
+                                    <span>Watch now</span>
+                                    <a class="contact-cta__play-video" data-fslightbox="1" href="https://www.youtube.com/watch?v=z2X2HaTvkl8"></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="contact__title title">Who do we serve?</h2>
+                    <div class="contact__descr">
+                        Every buyer and seller of tech and services in the world.
+                    </div>
+
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <div class="contact-card">
+                                <div class="contact-card__img">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#buyers"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="contact-card__title title">
+                                    Buyers
+                                </h3>
+                                <div class="contact-card__descr">
+                                    Torquem detraxit hosti et quidem se texit, ne ad eam.
+                                </div>
+                                <a href="#" class="contact-card__btn btn btn--white">Get Started</a>
+                            </div>
+                        </li>
+                        <li class="contact__item">
+                            <div class="contact-card">
+                                <div class="contact-card__img">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#seller"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="contact-card__title title">
+                                    Seller
+                                </h3>
+                                <div class="contact-card__descr">
+                                    Torquem detraxit hosti et quidem se texit, ne ad eam.
+                                </div>
+                                <a href="#" class="contact-card__btn btn btn--white">Get Started</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="choose">
+                <div class="container">
+                    <h2 class="choose__title title">Why choose us?</h2>
+                    <ul class="choose__list">
+                        <li class="choose__item">
+                            <div class="choose-item">
+                                <div class="choose-item__img">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#choose1"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="choose-item__title">
+                                    Performance
+                                </h3>
+                                <div class="choose-item__descr">
+                                    Torquem detraxit hosti et quidem se texit, ne ad.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="choose__item">
+                            <div class="choose-item">
+                                <div class="choose-item__img">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#choose2"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="choose-item__title">
+                                    Entrepreneurship
+                                </h3>
+                                <div class="choose-item__descr">
+                                    Torquem detraxit hosti et quidem se texit, ne ad.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="choose__item">
+                            <div class="choose-item">
+                                <div class="choose-item__img">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#choose3"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="choose-item__title">
+                                    Authenticity
+                                </h3>
+                                <div class="choose-item__descr">
+                                    Torquem detraxit hosti et quidem se texit, ne ad.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="choose__item">
+                            <div class="choose-item">
+                                <div class="choose-item__img">
+                                    <svg>
+                                        <use xlink:href="img/sprite.svg#choose4"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="choose-item__title">
+                                    Kindness
+                                </h3>
+                                <div class="choose-item__descr">
+                                    Torquem detraxit hosti et quidem se texit, ne ad.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="thanks" id="share">
+                <div class="container">
+                    <div class="thanks__wrapper">
+                        <h2 class="thanks__title title">Thanks for your nice
+                            words to us</h2>
+                        <div class="thanks__descr">
+                            Si sine causa, nollem me tamen laudandis maioribus meis corrupisti nec voluptas
+                        </div>
+                    </div>
+
+                    <ul class="thanks__list">
+                        <li class="thanks__item">
+                            <div class="thanks-card">
+                                <div class="thanks-card__img">
+                                    <picture>
+                                        <source srcset="img/thanks/1.webp" type="image/webp">
+                                        <img loading="lazy" src="img/thanks/1.jpg" alt="">
+                                    </picture>
+                                    <button class="thanks-card__play">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#play"></use>
+                                        </svg>
+                                        <a class="thanks-card__img-video" data-fslightbox="2" href="https://www.youtube.com/watch?v=z2X2HaTvkl8"></a>
+                                    </button>
+                                </div>
+                                <div class="thanks-card__content">
+                                    <div class="thanks-card__descr">
+                                        «Omne animal, simul atque integre iudicante itaque earum motus et.»
+                                    </div>
+                                    <h4 class="thanks-card__name">Arend Pellewever</h4>
+                                    <a href="#" class="thanks-card__place">Baltimore</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="thanks__item">
+                            <div class="thanks-card">
+                                <div class="thanks-card__img">
+                                    <picture>
+                                        <source srcset="img/thanks/2.webp" type="image/webp">
+                                        <img loading="lazy" src="img/thanks/2.jpg" alt="">
+                                    </picture>
+                                    <button class="thanks-card__play">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#play"></use>
+                                        </svg>
+                                        <a class="thanks-card__img-video" data-fslightbox="3" href="https://www.youtube.com/watch?v=z2X2HaTvkl8"></a>
+                                    </button>
+                                </div>
+                                <div class="thanks-card__content">
+                                    <div class="thanks-card__descr">
+                                        «Omne animal, simul atque integre iudicante itaque earum motus et.»
+                                    </div>
+                                    <h4 class="thanks-card__name">Arend Pellewever</h4>
+                                    <a href="#" class="thanks-card__place">Baltimore</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="thanks__item">
+                            <div class="thanks-card">
+                                <div class="thanks-card__img">
+                                    <picture>
+                                        <source srcset="img/thanks/3.webp" type="image/webp">
+                                        <img loading="lazy" src="img/thanks/3.jpg" alt="">
+                                    </picture>
+                                    <button class="thanks-card__play">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#play"></use>
+                                        </svg>
+                                        <a class="thanks-card__img-video" data-fslightbox="4" href="https://www.youtube.com/watch?v=z2X2HaTvkl8"></a>
+                                    </button>
+                                </div>
+                                <div class="thanks-card__content">
+                                    <div class="thanks-card__descr">
+                                        «Omne animal, simul atque integre iudicante itaque earum motus et.»
+                                    </div>
+                                    <h4 class="thanks-card__name">Arend Pellewever</h4>
+                                    <a href="#" class="thanks-card__place">Baltimore</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="experience" id="promote">
+                <div class="container">
+                    <div class="experience__wrapper">
+                        <div class="experience__info">
+                            <h2 class="experience__title title title--white">Get experience from the expert</h2>
+                            <div class="experience__descr">
+                                Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex
+                            </div>
+                            <a href="#" class="btn btn--white">Contact Us</a>
+                        </div>
+                        <div class="experience__img">
+                            <picture>
+                                <source srcset="img/experience/1.webp" type="image/webp">
+                                <img loading="lazy" src="img/experience/1.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__left">
+                        <a href="#" class="footer__logo logo logo--footer">
+                            <img loading="lazy" src="img/logo.svg" alt="Логотип">
+                        </a>
+                        <div class="footer__descr">
+                            Quae fuerit causa, nollem me ab illo inventore veritatis et.
+                        </div>
+                        <ul class="social">
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--fb" target="_blank">
+                                    <img loading="lazy" src="img/icons/social/fb.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--tw" target="_blank">
+                                    <img loading="lazy" src="img/icons/social/tw.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--yt" target="_blank">
+                                    <img loading="lazy" src="img/icons/social/yt.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link social__link--in" target="_blank">
+                                    <img loading="lazy" src="img/icons/social/in.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__right">
+                        <div class="footer__column">
+                            <h4 class="footer__title">Privacy</h4>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Si sine causa</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Quae fuerit causa</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Certe, inquam</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Torquatos nostros? </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <h4 class="footer__title">Legal</h4>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Ut placet, inquam </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Certe, inquam</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Et quidem rerum</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">At vero eos et</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <h4 class="footer__title">Contact</h4>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Primum igitur</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Certe, inquam</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__link">Quae fuerit causa</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
